@@ -1,0 +1,54 @@
+{
+"name": "personas and storyboards",
+"aspect_ratio": 0,
+"frames": [
+{
+"frame_number": "1",
+"label": "Greg has run out of clean clothes so he knows it's time to do laundry. He goes down to his dorm laundry room and loads his clothes into an empty machine.",
+"voiceover": null,
+"direction": null,
+"duration": 2000,
+"file_name": "frame-0001.jpg"
+},
+{
+"frame_number": "2",
+"label": "He then measures out enough detergent for a large load and pours it into the detergent drawer.",
+"voiceover": null,
+"direction": null,
+"duration": 2000,
+"file_name": "frame-0002.jpg"
+},
+{
+"frame_number": "3",
+"label": "Greg doesn't really know what the different settings mean, so like always he chooses regular wash, normal cycle, and cold water and starts the load. He sees that it will be done in 30 minutes.",
+"voiceover": null,
+"direction": null,
+"duration": 2000,
+"file_name": "frame-0003.jpg"
+},
+{
+"frame_number": "4",
+"label": "30 minutes later, Greg comes back to unload the washer.",
+"voiceover": null,
+"direction": null,
+"duration": 3000,
+"file_name": "frame-0004.jpg"
+},
+{
+"frame_number": "5",
+"label": "He notices the the sign that says to leave the door open so he does so.",
+"voiceover": "",
+"direction": "",
+"duration": 2000,
+"file_name": "frame-0005.jpg"
+},
+{
+"frame_number": "6",
+"label": "As he's on his way out, he notices that the display now reads \"Close door\" so he is left confused about what to do, ultimately deciding to close the door.",
+"voiceover": null,
+"direction": null,
+"duration": 2000,
+"file_name": "frame-0006.jpg"
+}
+]
+}
