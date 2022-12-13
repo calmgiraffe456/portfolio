@@ -2,116 +2,131 @@
 <html>
     <head>
         <title>Personas and Storyboarding</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <meta name="description" content="my assignment write up">
     </head>
     <body>
-        <nav id="nav-bar" class="navbar navbar-default">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <ul class="nav navbar-nav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../about.html">About Me</a></li>
-                <li><a href="index.html">Personas and Storyboarding</a></li>
-                <li><a href="../responsive-redesign/handin/index.html">Responsive Redesign</a></li>
-                <li><a href="../iterative-design/index.html">Iterative Design</a></li>
-                <li><a href="../development/index.html">Development</a></li>
-              </ul>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Personas and Storyboarding</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Responsive Redesign
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="../responsive-redesign/handin/index.html">Writeup</a></li>
+                      <li><a class="dropdown-item" href="../responsive-redesign/redesign/index.html">Redesigned Page</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../iterative-design/index.html">Iterative Design</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../development/index.html">Development</a>
+                  </li>
+                </ul>
+              </div>
             </div>
         </nav>
-        <h1>
-            Personas and Storyboarding: Washing Machine Interface
-        </h1>
+        <h1>Personas and Storyboarding: Washing Machine Interface</h1>
         
-        <div class="explanation">
-            In this project, I chose to observe users interacting with the washing machine interface in my dorm's laundry room.
-        </div>
-
+        <h3 id="explanation">In this project, I chose to observe users interacting with the washing machine interface in my dorm's laundry room.</h3>
+        <br>
         <div class="interface-images">
             <img src="washing machine.jpg" alt="Figma rendition of front-loading washing machine" id="washing-machine">
             <img src="close up.jpg" alt="Figma rendition of close up of button controls on front-loading washing machine" id="controls">
         </div>
         
-        <div class="questions">
-            <h2>Questions</h2>
+        <h2>Questions</h2>
+        <h4>
             <ol class="question-list">
-                <li>How frequently do you use the washing machine?</li>
-                <li>How does using the washing machine make you feel?</li>
-                <li>What, if anything, do you find confusing about this interface?</li>
-                <li>What settings do you use? Do you ever change your settings?</li>
-                <li>How do you imagine this interface works?</li>
+                <li><h4>How frequently do you use the washing machine?</h4></li>
+                <li><h4>How does using the washing machine make you feel?</h4></li>
+                <li><h4>What, if anything, do you find confusing about this interface?</h4></li>
+                <li><h4>What settings do you use? Do you ever change your settings?</h4></li>
+                <li><h4>How do you imagine this interface works?</h4></li>
             </ol>
-        </div>
-        
+        </h4>
 
         <h2>User Interviews</h2>
         <div class="user-interview-container">
             <div class="interview-card">
                 <h3 class="user-name">User 1</h3>
                 <ul> 
-                    <li>Uses the washing machine weekly</li>
-                    <li>Finds it intuitive to press the buttons and have the selected settings light up </li>
-                    <li>Uses the regular wash with warm water and either normal or delicate cycle</li>
-                    <li>Doesn't like that you can't set the time on the washer</li>
-                    <li>Frustrated that they can't open or stop it mid cycle</li>
+                    <li><h4>Uses the washing machine weekly</h4></li>
+                    <li><h4>Finds it intuitive to press the buttons and have the selected settings light up</h4></li>
+                    <li><h4>Uses the regular wash with warm water and either normal or delicate cycle</h4></li>
+                    <li><h4>Doesn't like that you can't set the time on the washer</h4></li>
+                    <li><h4>Frustrated that they can't open or stop it mid cycle</h4></li>
                 </ul>
             </div>
             <div class="interview-card">
                 <h3 class="user-name">User 2</h3>
                 <ul>
-                    <li>Dislikes that they have to split up their loads since the washer is small</li>
-                    <li>Appreciates that you can control the temperature</li>
-                    <li>Assumes that different wash settings control the rotation speed and time of a load</li>
-                    <li>Only uses the regular cycle on delicate and cold for clothing, uses ultra on normal cycle and hot water for towels</li>
+                    <li><h4>Dislikes that they have to split up their loads since the washer is small</h4></li>
+                    <li><h4>Appreciates that you can control the temperature</h4></li>
+                    <li><h4>Assumes that different wash settings control the rotation speed and time of a load</h4></li>
+                    <li><h4>Only uses the regular cycle on delicate and cold for clothing, uses ultra on normal cycle and hot water for towels</h4></li>
                 </ul>
             </div>
             <div class="interview-card">
                 <h3 class="user-name">User 3</h3>
                 <ul>
-                    <li>Does laundry every other week</li>
-                    <li>Only uses cold water with regular cycle and wash to be ecological</li>
-                    <li>Wonders what is under the tape on the center button on all machines</li>
-                    <li>Confused why there's a label that says to leave the door open, but the clock displays a "close door" message when that is done</li>
+                    <li><h4>Does laundry every other week</h4></li>
+                    <li><h4>Only uses cold water with regular cycle and wash to be ecological</h4></li>
+                    <li><h4>Wonders what is under the tape on the center button on all machines</h4></li>
+                    <li><h4>Confused why there's a label that says to leave the door open, but the clock displays a "close door" message when that is done</h4></li>
                 </ul>
             </div>
         </div>
         
-        <div class="personas">
-            <h2>Personas</h2>
-            <div id="personas-images">
-                <img src="persona 1.jpg" alt="Persona 1" id="persona-1">
-                <img src="persona 2.jpg" alt="Persona 2" id="persona-2">
+        <h2>Personas</h2>
+        <div id="personas-images">
+            <img src="persona 1.jpg" alt="Persona 1" id="persona-1">
+            <img src="persona 2.jpg" alt="Persona 2" id="persona-2">
+        </div>
+
+        <h2>Storyboard</h2>
+        <div class="storyboard-content">
+            <div class="frame" id="frame-1">
+                <img src="frame-1.jpg" class="frame-image">
+                <h4 class="caption">Greg has run out of clean clothes so he knows it's time to do laundry. He goes down to his dorm laundry room and loads his clothes into an empty machine.</h4>
+            </div>
+            <div class="frame" id="frame-2">
+                <img src="frame-2.jpg" class="frame-image">
+                <h4 class="caption">He then measures out enough detergent for a large load and pours it into the detergent drawer.</p>
+            </div>
+            <div class="frame" id="frame-3">
+                <img src="frame-3.jpg" class="frame-image">
+                <h4 class="caption">Greg doesn't really know what the different settings mean, so like always he chooses regular wash, normal cycle, and cold water and starts the load. He sees that it will be done in 30 minutes.</h4>
+            </div>
+            <div class="frame" id="frame-4">
+                <img src="frame-4.jpg" class="frame-image">
+                <h4 class="caption">30 minutes later, Greg comes back to unload the washer.</h4>
+            </div>
+            <div class="frame" id="frame-5">
+                <img src="frame-5.jpg" class="frame-image">
+                <h4 class="caption">He notices the the sign that says to leave the door open so he does so.</h4>
+            </div>
+            <div class="frame" id="frame-6">
+                <img src="frame-6.jpg" class="frame-image">
+                <h4 class="caption">As he's on his way out, he notices that the display now reads "Close door" so he is left confused about what to do, ultimately deciding to close the door.</h4>
             </div>
         </div>
 
-        <div class="storyboard">
-            <h2>Storyboard</h2>
-            <div class="storyboard-content">
-                <div class="frame" id="frame-1">
-                    <img src="frame-1.jpg" class="frame-image">
-                    <p class="caption">Greg has run out of clean clothes so he knows it's time to do laundry. He goes down to his dorm laundry room and loads his clothes into an empty machine.</p>
-                </div>
-                <div class="frame" id="frame-2">
-                    <img src="frame-2.jpg" class="frame-image">
-                    <p class="caption">He then measures out enough detergent for a large load and pours it into the detergent drawer.</p>
-                </div>
-                <div class="frame" id="frame-3">
-                    <img src="frame-3.jpg" class="frame-image">
-                    <p class="caption">Greg doesn't really know what the different settings mean, so like always he chooses regular wash, normal cycle, and cold water and starts the load. He sees that it will be done in 30 minutes.</p>
-                </div>
-                <div class="frame" id="frame-4">
-                    <img src="frame-4.jpg" class="frame-image">
-                    <p class="caption">30 minutes later, Greg comes back to unload the washer.</p>
-                </div>
-                <div class="frame" id="frame-5">
-                    <img src="frame-5.jpg" class="frame-image">
-                    <p class="caption">He notices the the sign that says to leave the door open so he does so.</p>
-                </div>
-                <div class="frame" id="frame-6">
-                    <img src="frame-6.jpg" class="frame-image">
-                    <p class="caption">As he's on his way out, he notices that the display now reads "Close door" so he is left confused about what to do, ultimately deciding to close the door.</p>
-                </div>
-            </div>
-        </div>
     </body>
 </html>

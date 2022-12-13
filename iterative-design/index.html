@@ -2,35 +2,61 @@
 <html>
 <head>
     <title>Iterative Design: Fetii</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
     <link rel="stylesheet" href="styles.css">
 
     <meta name="Iterative Design handin for Fetii" content="Iterative design project for the startup Fetii">
 </head>
 <body>
-
-    <nav id="nav-bar" class="navbar navbar-default">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about.html">About Me</a></li>
-            <li><a href="../personas-and-storyboarding/index.html">Personas and Storyboarding</a></li>
-            <li><a href="../responsive-redesign/handin/index.html">Responsive Redesign</a></li>
-            <li><a href="index.html">Iterative Design</a></li>
-            <li><a href="../development/index.html">Development</a></li>
-          </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../personas-and-storyboarding/index.html">Personas and Storyboarding</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Responsive Redesign
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../responsive-redesign/handin/index.html">Writeup</a></li>
+                  <li><a class="dropdown-item" href="../responsive-redesign/redesign/index.html">Redesigned Page</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../iterative-design/index.html">Iterative Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../development/index.html">Development</a>
+              </li>
+            </ul>
+          </div>
         </div>
     </nav>
 
 <h1>Iterative Design: Fetii</h1>
 <div class="sketching-and-wireframes">
     <h2>Part 1: Sketching </h2>
+    <h4>
+        In this project, I worked with a group to design a website for a startup. We chose to design
+        for Fetii, a short-term van reservation startup based in Austin, Texas.
+    </h4>
     <h3>Pre-Design Thinking</h3>
-    <p>Fetii is a startup that uses large sized passenger vans and buses to transport large groups of people. Similarly to Uber, users can book rides for now or later depending on their needs, but instead of one person paying with Fetii it is much easier to split the bill. Users can scan a QR code before getting on a vehicle to split the ride fare. Fetii targets a large consumer group ranging from corporate groups attending conferences to greek life groups. In this project we design a new desktop website for Fetii where users can book rides, find out about the company, and apply to work as a driver for Fetii.</p>
-    <h3>Sketches</h3>
-    <p>We each created a sketch of a possible website design for Fetii.</p>
+    <h4>Fetii is a startup that uses large sized passenger vans and buses to transport large groups of people. Similarly to Uber, users can book rides for now or later depending on their needs, but instead of one person paying with Fetii it is much easier to split the bill. Users can scan a QR code before getting on a vehicle to split the ride fare. Fetii targets a large consumer group ranging from corporate groups attending conferences to greek life groups. In this project we design a new desktop website for Fetii where users can book rides, find out about the company, and apply to work as a driver for Fetii.</p>
+    <h3>Sketches</h4>
+    <h4>We each created a sketch of a possible website design for Fetii.</h4>
     <div class="carousel-container">
         <!-- Carousel code based on https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
         <div class="top-carousels">
@@ -175,19 +201,21 @@
         </div> 
     </div>
     <h3>Wireframes</h3>
-    <p>Based on our sketches, we made wireframes based on the following design descisions</p>
-    <ul>
-        <li>
-            Website will feature both Rider and Driver functionality. Need a clear and distinct navbar that shows the user where they currently are on the page
-        </li>
-        <li>
-            Ordering a van should have a minimalist design and highlight the key items: pickup/dropoff location and time and a map for the user to visualize the route
-        </li>
-        <li>
-            Pickup Now and Pickup Later should look very similar, the user should understand what to do either way
-        </li>    
-    </ul>
-    <p>Click the screen then use the left and right arrow keys to view the wireframes!</p>
+    <h4>Based on our sketches, we made wireframes based on the following design descisions</h4>
+    <h4>
+        <ul>
+            <li>
+                Website will feature both Rider and Driver functionality. Need a clear and distinct navbar that shows the user where they currently are on the page
+            </li>
+            <li>
+                Ordering a van should have a minimalist design and highlight the key items: pickup/dropoff location and time and a map for the user to visualize the route
+            </li>
+            <li>
+                Pickup Now and Pickup Later should look very similar, the user should understand what to do either way
+            </li>    
+        </ul>
+    </h4>
+    <h4>Click the screen then use the left and right arrow keys to view the wireframes!</h4>
     <div class="figma-embed">
         <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3aica95lemFkiVyqePLbAx%2Fwireframes%3Fpage-id%3D0%253A1%26node-id%3D16%253A4%26viewport%3D388%252C269%252C0.19%26scaling%3Dscale-down" allowfullscreen></iframe>
     </div>
@@ -195,29 +223,30 @@
 <div class="mockups">
     <h2>Part 2: Mockups</h2>
     <h3>Interactive High Fidelity Mockup</h3>
-    <p>We then transformed our wireframes into am interactive high fidelity mockup. Click around to the different pages!</p>
+    <h4>We then transformed our wireframes into am interactive high fidelity mockup. Click around to the different pages!</h4>
     <div class="figma-embed">
         <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3aica95lemFkiVyqePLbAx%2Fwireframes%3Fpage-id%3D16%253A225%26node-id%3D18%253A241%26viewport%3D380%252C378%252C0.09%26scaling%3Dscale-down%26starting-point-node-id%3D18%253A241" allowfullscreen></iframe>
     </div>
     <h3>Crit</h3>
-    <p>We got lots of helpful feedback from an in-class crit. Here were our takeaways:</p>
-    <ul>
-        <li>
-            Most negative feedback and suggestions came from the “Book a Ride” page. In general, users wanted a clearer and more intuitive experience, as well as more information about the ride. Specifically, users found it unclear how to set a location, pay for the ride, specify the number of riders, and did not find an estimated price.
-        </li>
-        <li>
-            Users wanted a Profile page to keep track of their scheduled and past rides, as well as their payment information. 
-        </li>
-        <li>
-            Users found the text on the website too plain and too clunky. There was a lack of general hierarchy that could help discern where to look. 
-        </li> 
-        <li>
-            Overall, users would have appreciated more information about the product and website. The page did not seem intuitive enough both with what the product is and how to use it. 
-        </li>   
-    </ul>
+    <h4>We got lots of helpful feedback from an in-class crit. Here were our takeaways:
+        <ul>
+            <li>
+                Most negative feedback and suggestions came from the “Book a Ride” page. In general, users wanted a clearer and more intuitive experience, as well as more information about the ride. Specifically, users found it unclear how to set a location, pay for the ride, specify the number of riders, and did not find an estimated price.
+            </li>
+            <li>
+                Users wanted a Profile page to keep track of their scheduled and past rides, as well as their payment information. 
+            </li>
+            <li>
+                Users found the text on the website too plain and too clunky. There was a lack of general hierarchy that could help discern where to look. 
+            </li> 
+            <li>
+                Overall, users would have appreciated more information about the product and website. The page did not seem intuitive enough both with what the product is and how to use it. 
+            </li>   
+        </ul>
+    </h4>
 
     <h3>Revised Interactive High Fidelity Mockup</h3>
-    <p>Based on the feedback from the crit, we made another version of our interactive high fideltiy mockup. Click around to explore!</p>
+    <h4>Based on the feedback from the crit, we made another version of our interactive high fideltiy mockup. Click around to explore!</h4>
     <div class="figma-embed">
         <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F3aica95lemFkiVyqePLbAx%2Fwireframes%3Fpage-id%3D110%253A112%26node-id%3D110%253A113%26viewport%3D504%252C360%252C0.06%26scaling%3Dscale-down%26starting-point-node-id%3D110%253A113" allowfullscreen></iframe>
     </div>
@@ -227,25 +256,27 @@
     <div class="tasks-questions">
         <div class="tasks">
             <h3>Tasks</h3>
-            <p>Scenario: Imagine that you need to transport yourself and a group of others. Book a ride for the group. This platform is a prototype so some elements may be prefilled and not able to be interacted with.</p>
-            <ul>
-                <li>Without leaving the homepage, what are your initial impressions of the website?</li>
-                <li>Book a ride for now</li>
-                <li>Submit a job application on this website</li>
-                <li>Set up an account on this website</li>
-            </ul> 
+            <h4>Scenario: Imagine that you need to transport yourself and a group of others. Book a ride for the group. This platform is a prototype so some elements may be prefilled and not able to be interacted with.
+                <ul>
+                    <li>Without leaving the homepage, what are your initial impressions of the website?</li>
+                    <li>Book a ride for now</li>
+                    <li>Submit a job application on this website</li>
+                    <li>Set up an account on this website</li>
+                </ul> 
+            </h4>
         </div>
         <div class="questions">
             <h3>Post-Test Questions</h3>
-            <p>For each task,</p>
-            <ul>
-                <li>Did you complete the task successfully?</li>
-                <li>Rate this task overall from very difficult to very easy</li>
-            </ul>
+            <h4>For each task,
+                <ul>
+                    <li>Did you complete the task successfully?</li>
+                    <li>Rate this task overall from very difficult to very easy</li>
+                </ul>
+            </h4>
         </div>
     </div>
     <h3>User Testing Videos</h3>
-    <p>Here are the videos of the User Testing of our revised prototype of Fetii.</p>
+    <h4>Here are the videos of the User Testing of our revised prototype of Fetii.</h4>
     <div class="video-container">
         <video controls>
             <source src="UserTest1.mp4" type="video/mp4">
@@ -258,7 +289,7 @@
         </video>
     </div>
     <h3>Analysis of Results</h3>
-    <p id="analysis">
+    <h4 id="analysis">
         The first question that we asked the users was “without leaving the homepage, what are your initial impressions of the website”. All three testers mentioned the color prominence of the color purple, the name of the company, the request a ride button, sign up to drive button, and the nav bar. This is in line with what we thought users would notice on the home page of our website. One user mentioned that the items within the nav bar were not level within which was a good point and something that we had not noticed. This is something we will fix in the future. They also mentioned the idea of changing the “my account” button to be an icon instead of text. This is also another idea to consider. Another user mentioned that they thought the home page had everything they would need to book a ride. 
         <br>
         <br>
@@ -271,7 +302,7 @@
         The fourth task was to “set up an account on this website”. All three users clicked on the my account tab in the nav bar. All three users were able to complete the task. One user was confused on the past drives section of the page because they just created the account. This section would presumably be blank on the actual website, but would be something to change for the prototype. One user was wondering if the past orders would be scrollable or click to open another page. This would be a design idea to consider in the future. 
         <br>
         <br>
-    </p>
+    </h4>
 </div>
 </body>
 </html>

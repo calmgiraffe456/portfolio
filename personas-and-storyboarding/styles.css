@@ -10,6 +10,7 @@ body {
     --space-cadet: #212738ff;
 
     background-image: linear-gradient(var(--light-blue), white);
+    color: var(--midnight-green-eagle-green);
 
 }
 
@@ -20,41 +21,43 @@ ul {
 
 h1 {
     text-align: center;
-    color: var(--midnight-green-eagle-green);
-    font-weight: bolder;
-    font-size: 4vw;
+    color: var(--midnight-green-eagle-green) !important;
 }
 
 h2 {
-    color: var(--midnight-green-eagle-green);
-    font-weight: bolder;
-    font-size: xx-large;
+    color: var(--midnight-green-eagle-green) !important;
     text-align: center;
 }
 
 img {
-    border-radius: 7%;
+    border-radius: 30px;
 }
 
-.explanation {
-    font-size: x-large;
+h3 {
     color: var(--midnight-green-eagle-green);
     text-align: center;
     max-width: 80%;
     padding-left: 10%;
 }
 
+h4 {
+    color: var(--midnight-green-eagle-green);
+}
+
+#explanation {
+    color: var(--midnight-green-eagle-green) !important;
+}
+
 .interface-images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #washing-machine, #controls {
-    padding-right: 2%;
-    margin: 2.5%;
-    width: 600px;
+    width: 500px;
+    margin: 10px;
 }
 
 .questions {
@@ -67,7 +70,7 @@ img {
     margin-left: 20%;
     margin-right: 20%;
     color: var(--midnight-green-eagle-green);
-    font-size: 2.7vw;
+    /* font-size: 2.7vw; */
 }
 
 .user-interview-container {
@@ -80,7 +83,7 @@ img {
 
 .interview-card {
     background-color: var(--midnight-green-eagle-green);
-    border-radius: 5%;
+    border-radius: 25px;
     padding-right: 2%;
     margin: 2.5%;
     width: 300px;
@@ -111,6 +114,7 @@ img {
     flex-wrap: wrap;
     margin: 2.5%;
     justify-content: space-evenly;
+    color: var(--midnight-green-eagle-green) !important;
 
 }
 

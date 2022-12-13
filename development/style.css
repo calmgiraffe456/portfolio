@@ -1,0 +1,20 @@
+body {
+    --orange-yellow-crayola: rgb(243, 217, 122);
+    --indigo-dye: #083d77ff;
+    --cerise: #da4167ff;
+
+    background-color: var(--orange-yellow-crayola);
+    color: var(--cerise);
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1, h2, h3, h4 {
+    padding-left: 10%;
+    padding-right: 10%;
+}

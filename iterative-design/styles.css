@@ -4,7 +4,7 @@ body {
 
     /* CSS HEX */
     --purple: #562ABE;
-    --light-purple: #562ABE19;
+    --light-purple: #562ABE50;
     --light-blue: #a8d5e2ff;
     --orange-soda: #f85a3eff;
     --green-yellow-crayola: #edeba0ff;
@@ -13,7 +13,7 @@ body {
 
     /* background-image: linear-gradient(var(--purple), white); */
     background-color: var(--light-purple);
-    color: var(--midnight-green-eagle-green);
+    color: rgb(66, 65, 65);
 
 }
 
@@ -23,6 +23,12 @@ h1,h2 {
 
 h3 {
     padding-left: 5%;
+    padding-right: 5%;
+}
+
+h4 {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 ul {
